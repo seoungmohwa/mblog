@@ -10,8 +10,31 @@
   }
 }
 
+
+/* -------------------loading  */
+
+.loading {
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-color:white;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  z-index:1000;
+}
+
+.loading::after {
+  content:"로딩중..";
+}
+
+
+/* -------------------scrollbar */
+
 ::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+  -webkit-box-shadow: inset 0 0 6px rgba(207, 206, 206, 0.1);
   background-color: #e8e6e1;
 }
 
@@ -22,6 +45,7 @@
 
 ::-webkit-scrollbar-thumb {
   background-color: #ffc501;
+  border-radius: 10px;
 }
 
 /* -------------------main */
