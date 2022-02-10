@@ -1,2 +1,2 @@
-# mblog
-SMH 블로그
+# smh 블로그
+- [https://seoungmohwa.github.io/mblog/](https://seoungmohwa.github.io/mblog/)
